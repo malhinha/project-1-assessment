@@ -12,6 +12,8 @@ let integerValue = 1;
 
 /* FUNCTIONS */
 
+// sets color of counter based on positive vs negative
+
 const countColor = () => {
   if (countValue < 0) {
     count.classList.add("red");
